@@ -4,7 +4,7 @@ import androidx.annotation.DrawableRes
 
 object FlagPack1 {
     val missingFlagPlaceHolder: Int = R.drawable.flag_transparent
-    val alpha2ToFlag = mapOf<String, @DrawableRes Int>(
+    val alpha2ToFlag = mapOf<String, Int>(
         "ad" to R.drawable.flag_andorra,
         "ae" to R.drawable.flag_uae,
         "af" to R.drawable.flag_afghanistan,
